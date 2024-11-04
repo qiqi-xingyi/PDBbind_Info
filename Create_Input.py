@@ -55,7 +55,7 @@ def read_pdb_file(file_path):
 
 
 if __name__ == '__main__':
-    # 指定 .pdb 文件路径
+    # create path
     file_path = "./PDBbind/3jvs/3jvs_pocket.pdb"  # 将此路径替换为实际的 .pdb 文件路径
     read_pdb_file(file_path)
 
